@@ -26,7 +26,7 @@ public class Condition3 {
 
 
         if ( score >= 90 && score <= 100){
-            grade = "A";
+            grade = "j10_접근지정자/A";
         }else if ( score >= 80 && score <= 89) {
             grade = "B";
         }else if ( score >= 70 && score <= 79) {
