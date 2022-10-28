@@ -19,6 +19,15 @@ public class Student {
         calculation();
     }
 
+    public void updateStudent(Student updateStudent) {
+//      getter, setter가 필요없음
+        this.kor = updateStudent.kor;
+        this.eng = updateStudent.eng;
+        this.math = updateStudent.math;
+
+        calculation();
+    }
+
     private void calculation() {
         setTotalScore();
         setAvgScore();
@@ -26,6 +35,7 @@ public class Student {
     }
 
     private void setTotalScore() {
+
         totalScore = kor + math + eng;
     }
 
@@ -59,4 +69,9 @@ public class Student {
         System.out.println("학점: " + grade);
         System.out.println();
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
