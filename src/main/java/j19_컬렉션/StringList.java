@@ -2,6 +2,7 @@ package j19_컬렉션;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class StringList {
@@ -93,6 +94,11 @@ public class StringList {
         for (Object object : objects) {
             System.out.println(object);
         }
+
+        ArrayList<String> list2 = new ArrayList<String>();
+
+        Collections.reverse(list2);
+
 
 
     }
